@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lyf.windowsoftinputmode" >
+    package="com.lyf.windowsoftinputmode">
 
     <application
         android:allowBackup="true"
@@ -8,8 +8,91 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".MainActivity" >
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".adjustnothing.AdjustNothingScrollActivity"
+            android:label="AdjustNothingScrollActivity"
+            android:windowSoftInputMode="stateVisible|adjustNothing"></activity>
+        <activity
+            android:name=".adjustnothing.AdjustNothingActivity"
+            android:label="AdjustNothingActivity"
+            android:windowSoftInputMode="stateVisible|adjustNothing" />
+        <activity
+            android:name=".adjustpan.AdjustPanScrollActivity"
+            android:label="AdjustPanActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity
+            android:name=".adjustpan.AdjustPanActivity"
+            android:label="AdjustPanActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity
+            android:name=".adjustresize.AdjustResizeScrollActivity"
+            android:label="AdjustResizeScrollActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".adjustresize.AdjustResizeActivity"
+            android:label="AdjustResizeActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".adjustunspecified.AdjustUnspecifiedScrollActivity"
+            android:label="AdjustUnspecifiedScrollActivity"
+            android:windowSoftInputMode="stateVisible|adjustUnspecified" />
+        <activity
+            android:name=".adjustunspecified.AdjustUnspecifiedActivity"
+            android:label="AdjustUnspecifiedActivity"
+            android:windowSoftInputMode="stateVisible|adjustUnspecified" />
+        <activity
+            android:name=".statealwaysvisible.StateAlwaysVisibleScrollActivity"
+            android:label="StateAlwaysVisibleScrollActivity"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name=".statealwaysvisible.StateAlwaysVisibleActivity"
+            android:label="StateAlwaysVisibleActivity"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name=".statevisible.StateVisibleScrollActivity"
+            android:label="StateVisibleScrollActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".statevisible.StateVisibleActivity"
+            android:label="StateVisibleActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".statealwayshidden.StateAlwaysHiddenScrollActivity"
+            android:label="StateAlwaysHiddenScrollActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".statealwayshidden.StateAlwaysHiddenActivity"
+            android:label="StateAlwaysHiddenActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".statehidden.StateHiddenScrollActivity"
+            android:label="StateHiddenScrollActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".statehidden.StateHiddenActivity"
+            android:label="StateHiddenActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".BaseActivity" />
+        <activity
+            android:name=".stateunchanged.StateUnchangedScrollActivity"
+            android:label="StateUnchangedScrollActivity"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".stateunchanged.StateUnchangedActivity"
+            android:label="StateUnchangedActivity"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".stateunspecified.StateUnspecifiedScrollActivity"
+            android:label="StateUnspecifiedScrollActivity"
+            android:windowSoftInputMode="stateUnspecified" />
+        <activity
+            android:name=".stateunspecified.StateUnspecifiedActivity"
+            android:label="StateUnspecifiedActivity"
+            android:windowSoftInputMode="stateUnspecified" />
+        <activity
+            android:name=".MainActivity"
+            android:label="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
