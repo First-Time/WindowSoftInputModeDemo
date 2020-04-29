@@ -90,9 +90,7 @@
             android:name=".stateunspecified.StateUnspecifiedActivity"
             android:label="StateUnspecifiedActivity"
             android:windowSoftInputMode="stateUnspecified" />
-        <activity
-            android:name=".MainActivity"
-            android:label="MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
